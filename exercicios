@@ -1,0 +1,133 @@
+//EXERCICIO 1
+// A) Ele determina atraves dos requisitos se a pessoa pode ou nao dirigir
+// B) Quando os requisitos forem todos atendidos. Quando algum dos requisitos nao for atendido
+
+//EXERCICIO 2
+// A) Determinar se o animal é ou nao carnivoro
+// B) "Leão é um animal carnívoro."
+
+//EXERCICIO 3
+// A) Ele descobre se a variavel numero é maior, menor ou igual a 5, e se é par ou impar
+// B) "O número é maior do que 5.", e "O número é par."
+/*
+// EXERCICIO B 1
+let idade = Number (prompt("qual sua idade?")) 
+if (idade >= 18) {
+    console.log(`voce é maior de idade`)
+    } else {
+    console.log(`voce é menor de idade.`)
+    }
+
+// EXERCICIO B 2
+let turno =  prompt("Em que turno vc estuda?")
+if (turno === "M") {
+    console.log ("Bom Dia!")
+} else if (turno === "T") {
+    console.log ("Boa Tarde!")
+} else {
+    console.log ("Boa Noite!")
+}
+
+
+
+
+// EXERCICIO B 3
+
+let turno = prompt("Fale seu turno")
+switch (turno) {
+    case 'M' :
+        console.log ('Bom Dia!')
+        break
+    case 'T':
+        console.log ("Boa Tarde!")
+        break
+    case 'N':
+        console.log ("Boa Noite!")
+        break 
+
+    default:
+        console.log('turno nao encontrado')
+        break;
+
+}
+
+
+// EXERCICIO B 4
+
+const aluno = {
+    nome: "teo",
+    idade: 15, 
+    curso: true,
+    bolsa: false
+}
+if (aluno.idade < 30 && aluno.curso === true && aluno.bolsa === false) {
+    console.log ("Você pode se candidatar a uma bolsa de estudos!")
+} else {
+console.log ("Desculpe, você não atende aos requisitos para a bolsa.")
+}
+
+
+const produto = {
+    nome: "refri",
+    preco: 10,
+    desconto: 0,
+    freteGratis: false
+}
+if (produto.desconto > -1 && produto.freteGratis === true) {
+        console.log ("Preco final:", produto.preco - (produto.preco / (100 / produto.desconto)), "(Frete Gratis)")
+
+} else if (produto.desconto > -1 && produto.freteGratis === false) {
+    console.log ("Preco final:", produto.preco - (produto.preco / (100 / produto.desconto)))
+
+} else if (preco.desconto < 1 && produto.freteGratis === true) {
+    console.log ("Preco final:", produto.preco, "(Frete Gratis)")
+
+} else {
+     console.log ("Preco final:", produto.preco)
+ }
+  
+
+//EXTRA
+
+function calculadora (numero1, numero2) {
+ return numero1 + numero2
+}
+        
+
+ let nmr = Number (prompt ("digite um numero"))
+ let nmr2 = Number (prompt ("digite outro numero"))
+        
+console.log ("numeros inseridos:", nmr, "e", nmr2 )
+ console.log ("soma:", calculadora(nmr, nmr2))
+
+
+
+ // EXTRA 2
+
+
+ 
+function media (notas) {
+    const soma = notas.reduce((acumulador, numero) => acumulador + numero, 0)
+    return notas.length > 0 ? soma / notas.length : 0
+}
+
+const numeros = [9, 8, 6, 10, ]
+const media2 = media(numeros)
+console.log (media2)
+
+
+// EXTRA 3
+function palindromo(string) {
+    
+    const formatado = string.replace(/ /g, "").toLowerCase();
+  
+    
+    const invertido = formatado.split("").reverse().join("");
+  
+    return formatado === invertido;
+  }
+  
+  const palavra = "arara";
+  const resultado = palindromo(palavra);
+  console.log(resultado)
+  */
